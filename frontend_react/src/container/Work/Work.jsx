@@ -14,7 +14,7 @@ const Work = () => {
   const handleWorkFilter = (item) => {
   }
   const [works, setWorks] = useState([])
-  const [filterWork, setFilterWork] = useState()
+  const [filterWork, setFilterWork] = useState([])
 
   useEffect(() => {
    const query = '*[_type == "works"]'
@@ -53,7 +53,6 @@ const Work = () => {
       animate = {animateCard}
       transition={{duration: 0.5, delayChildren: 0.5}}
       className="app__work-portfolio">
-
         {filterWork.map((work,index)=>(
           <div 
           className='app__work-item app__flex'
