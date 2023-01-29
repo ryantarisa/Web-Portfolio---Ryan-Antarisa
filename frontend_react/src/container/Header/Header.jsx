@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div className='app__header app__flex'>
       <motion.div
-      whileInView={{x:[-100,0], opacity:[0,1]}}
+      whileInView={{x:[-100,0], opacity:[0,9]}}
       transition={{duration:0.5}}
       className="app__header-info">
         <div className='app__header-badge'>
@@ -33,8 +33,8 @@ const Header = () => {
           </div>
 
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>Web Developer</p>
-            <p className='p-text'>Industrial Engineer</p>
+            <p className='p-text' style={{fontWeight:"bold"}}>Full Stack Web Developer</p>
+            <p className='p-text'style={{fontSize:"0.7rem"}}>(JavaScript, React JS, Node.js, MongoDB, MySQL)</p>
           </div>
         </div>
       </motion.div>
