@@ -4,8 +4,7 @@ import {About,Footer,Header,Skills,Testimonials,Work} from "./container"
 import {Navbar} from "./components"
 import "./App.scss"
 
-const App = () => {
-  return (
+const App = () => (
     <div className='app'>
         <Navbar/>
         <Header/>
@@ -15,7 +14,6 @@ const App = () => {
         <Testimonials/>
         <Footer/>
     </div>
-  );
-}
+)
 
 export default App;
