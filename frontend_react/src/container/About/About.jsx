@@ -19,11 +19,11 @@ client.fetch(query)
   return (
     <>
     <h2 className='head-text'>
-      I Know That
-       <span> Good Design</span>
+      First,
+       <span> solve the problem.</span>
       <br />
-      means
-       <span> Good Business</span>
+      Then,
+       <span> write the code.</span>
     </h2>
 
     <div className='app__profiles'>

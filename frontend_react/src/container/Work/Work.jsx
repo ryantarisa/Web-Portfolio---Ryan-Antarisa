@@ -48,10 +48,11 @@ const Work = () => {
   return (
     <>
     <h2 className='head-text'>
-      My Creative
-       <span> Portfolio</span>
+     <span>My Projects, </span>
+      so far..
       <br />
-       <span> Section</span>
+       Stay tuned for
+       <span> more awesomeness!</span>
     </h2>
 
     <div className='app__work-filter'>

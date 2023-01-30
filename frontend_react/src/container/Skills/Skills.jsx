@@ -32,7 +32,8 @@ const Skills = () => {
     <h2
     className='head-text'
     >
-      Skills & Experience
+      <span>Skills</span> & 
+      Career Journey
     </h2>
 
     <div
@@ -60,6 +61,7 @@ const Skills = () => {
       </motion.div>
 
         <motion.div className='app__skills-exp'>
+          
         {experiences.map((experience)=>(
           
           <motion.div

@@ -5,15 +5,15 @@ import {FaWhatsapp} from "react-icons/fa"
 const SocialMedia = () => {
   return (
     <div className='app__social'>
-        <div>
+        <a href='https://www.linkedin.com/in/ryan-antarisa-25305615b/'>
             <BsLinkedin/>
-        </div>
-        <div>
+        </a>
+        <a href='https://github.com/ryantarisa'>
             <BsGithub/>
-        </div>
-        <div>
+        </a>
+        <a href='tel:+6287885729863'>
             <FaWhatsapp/>
-        </div>
+        </a>
         </div>
   )
 }
