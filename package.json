@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-tooltip": "^5.7.1"
+    "react-tooltip": "^5.7.1",
+    "sanity": "^3.5.1"
   }
 }
